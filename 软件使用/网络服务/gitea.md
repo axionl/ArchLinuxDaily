@@ -16,8 +16,8 @@
 
 包名: `gitea`
 
-~~可以添加 Arch CN 源之后使用 pacman 安装~~ (现已加入 `community-testing`)，也可
-以通过 AUR Helper 安装。
+~~可以添加 Arch CN 源之后使用 pacman 安装~~ (现已加入 ~~`community-testing`~~
+`community`)，也可以通过 AUR Helper 安装。
 
 ## 配置
 
@@ -38,9 +38,9 @@
 - Gitea 也提供了 [`TiDB`](https://github.com/pingcap/tidb) 的实验性支持，如有能
   力可以自建大规模分布式数据库。
 
-- **`MariaDB` 不是一个好选择**：鉴于 Mariadb 新版本依赖构建过于复杂，ArchLinux
+- ~~**`MariaDB` 不是一个好选择**：鉴于 Mariadb 新版本依赖构建过于复杂，ArchLinux
   的 MariaDB 包更新基本处于停滞状态，而目前正在使用的旧版本会导致一些字段过长错
-  误，暂无修复方案。
+  误，暂无修复方案。~~ 喜大普奔：多年的老 mariadb 已经更新了！
 
 **下面以 PostgreSQL 为例介绍配置：**
 
